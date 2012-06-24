@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>RedCarded</title>
+
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="resources/css/styles.css" />
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+        <script src="resources/js/common.js"></script>
+    </head>
+    <body>
+        <div data-role="page" data-theme="a" id="main">
+            <div data-role="content">
+                <div style=" text-align:right">
+                    <a data-rel="dialog" href="#credits"><img style="width: 32px; height: 32px" src="resources/images/info_icon.gif" /></a>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" id="yellow" onclick="changeTheme('yellow');">YELLOW</a></li>
+                        <!-- <li><a href="#" class="ui-disabled" id="reset" onclick="changeTheme('black');">RESET</a></li> -->
+                        <li><a href="#" id="reset" onclick="changeTheme('black');">RESET</a></li>
+                        <li><a href="#" id="red" onclick="changeTheme('red');">RED</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" data-theme="b" data-add-back-btn="true" id="credits">
+            <div data-role="header">
+                <h1><span style="color: red;">Red</span><span style="color: yellow;">Carded</span></h1>
+            </div>
+            <div data-role="content">
+                <div style="text-align: center;"><img src="resources/images/red_card.png" width="150" height="150" /></div>
+                <ul data-role="listview" data-inset="true">
+                    <li><h3>Name:</h3><p>RedCarded</p></li>
+                    <li><h3>Version:</h3><p>1.0</p></li>
+                    <li><h3>Build Number:</h3><p>20120624_A</p></li>
+                    <li><h3>Developed By:</h3><p><a href="http://www.paulhitz.com/">Paul Hitz</a></p></li>
+                    <li><h3>Original Idea:</h3><p>Martin O'Flaherty</p></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

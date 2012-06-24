@@ -1,0 +1,77 @@
+			<!--
+			
+			
+			<div data-role="footer" data-position="fixed" class="ui-bar" style="text-align: center;">
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#" onclick="doSomething()">YELLOW</a>
+					<a href="#" onclick="doSomething()">RESET</a>
+					<a href="#" onclick="doSomething()">RED</a>
+				</div>
+			</div>
+			
+			
+<div data-role="footer">		
+	<div data-role="navbar">
+		<ul>
+			<li><a href="#">YELLOW</a></li>
+			<li><a href="#">RESET</a></li>
+			<li><a href="#">RED</a></li>
+		</ul>
+	</div>
+</div>
+-->
+
+
+
+
+
+
+
+/*
+function doSomething() {
+    alert("Doing something...");
+	
+	
+	//TODO change theme. or bg color.
+	
+	//var pages = $("div[data-role='page']");
+	var pages = $("#main");
+	//var pageThemeClasses = $(pages + "[class$=a]");
+    pages.removeClass('ui-bar-a');
+	pages.addClass('ui-bar-b');
+}
+*/
+
+
+
+/*
+$('#reset').click(function() {
+    alert("test");
+    //$(this).addClass('ui-disabled');
+});
+
+
+$('#yellow').click(function() {
+    alert("test");
+    //$(this).addClass('ui-disabled');
+});
+
+
+
+$('#red').click(function() {
+    alert("test");
+    //$(this).addClass('ui-disabled');
+});
+*/
+
+function test(button) {
+    //alert("test");
+    $(button).addClass('ui-disabled');
+	//$(button).hide();
+}
+
+
+
+
+
+
