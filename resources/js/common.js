@@ -4,7 +4,7 @@ $(document).ready(function () {
 });
 
 /**
- * Modify the background color of the page. 
+ * Modify the background color of the page.
  */
 function changeTheme(theme) {
     $("#main").removeClass('ui-body-a');
