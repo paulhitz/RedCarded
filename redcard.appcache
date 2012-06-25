@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version: 20120625_C
+# version: 20120625_D
 
 NETWORK:
 *
@@ -12,6 +12,7 @@ resources/js/common.js
 resources/images/info.png
 resources/images/iphone_icon.png
 resources/images/red_card.png
+resources/images/irish_flag.png
 resources/images/splash_320x460.png
 resources/images/splash_640x920.png
 http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
