@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version: 20120625_B
+# version: 20120625_C
 
 NETWORK:
 *
@@ -14,7 +14,7 @@ resources/images/iphone_icon.png
 resources/images/red_card.png
 resources/images/splash_320x460.png
 resources/images/splash_640x920.png
-
 http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
 http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js
 http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css
+http://code.jquery.com/mobile/1.1.0/images/ajax-loader.gif
