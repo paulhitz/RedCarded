@@ -1,20 +1,27 @@
 
+$(document).ready(function () {
+    changeTheme("black");
+});
 
+/**
+ * Modify the background color of the page. 
+ */
 function changeTheme(theme) {
-    var page = $("#main");
+    $("#main").removeClass('ui-body-a');
+    $('li a').removeClass('ui-btn-active');
+
     switch(theme) {
         case "yellow":
-            page.addClass('ui-bar-b');
+            $('#info_link').hide();
+            $('#main').css("background-color", "yellow");
             break;
         case "red":
-            page.addClass('ui-bar-c');
+            $('#info_link').hide();
+            $('#main').css("background-color", "red");
             break;
         default:
-            page.removeClass('ui-bar-b');
-            page.removeClass('ui-bar-c');
-            page.addClass('ui-bar-a');
+            $('#info_link').show();
+            $('#main').css("background-color", "black");
         }
 }
-
-
 
