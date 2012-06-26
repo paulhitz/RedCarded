@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.paulhitz.redcarded"
+	version 	= "0.0.1">
+
+	<name>RedCarded</name>
+
+	<description>
+		Have you ever sat in a meeting and noticed that someone is, repeating a point that has already been made, moving off in a tangent from the agenda or generally wasting time. Time to give them the Red Card
+	</description>
+
+	<author href="http://www.paulhitz.com" email="paul@paulhitz.com">
+		Paul Hitz
+	</author>
+
+	<preference name="fullscreen" value="true" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="permissions" value="none"/>
+
+	<icon src="icon.png" />
+	<gap:splash src="resources/images/splash_320x460.png" width="320" height="480" />
+	<gap:splash src="resources/images/splash_640x920.png" width="640" height="960" />
+</widget>
