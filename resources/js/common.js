@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+    $("#main").removeClass('ui-body-a');
     changeTheme("black");
 });
 
@@ -7,21 +8,18 @@ $(document).ready(function () {
  * Modify the background color of the page.
  */
 function changeTheme(theme) {
-    $("#main").removeClass('ui-body-a');
-    $('li a').removeClass('ui-btn-active');
-
     switch(theme) {
         case "yellow":
-            $('#info_link').hide();
             $('#main').css("background-color", "yellow");
+            $('#info_link').hide();
             break;
         case "red":
-            $('#info_link').hide();
             $('#main').css("background-color", "red");
+            $('#info_link').hide();
             break;
         default:
-            $('#info_link').show();
             $('#main').css("background-color", "black");
+            $('#info_link').show();
         }
 }
 
