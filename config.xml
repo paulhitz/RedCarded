@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.paulhitz.redcarded" version="0.0.3">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.paulhitz.redcarded" version="1.0.0">
 
 	<name>RedCarded</name>
 
 	<description>
-		Simple mobile app to indicate if someone should be red or yellow carded.
-	</description>
+Introducing RedCarded... A simple but powerful app allowing you to express your opinion through the medium of Red and Yellow cards!
+
+This app has the potential to revolutionise the way we all communicate...
+
+...Is someone bugging you? Show them the Yellow card!
+
+...At a match and the referee can't hear your (insightful and coherent) shouts? Show him the RED card!
+    </description>
 
 	<author href="http://www.paulhitz.com" email="paul@paulhitz.com">Paul Hitz</author>
 
