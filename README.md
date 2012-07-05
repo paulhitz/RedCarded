@@ -10,6 +10,7 @@ This app has the potential to **revolutionise** the way we all communicate...
 * At a match and the referee can't hear your (insightful and coherent) shouts? Show him the RED card!
 
 
-![Default](/resources/images/screenshots/default.png)
-![Red](/resources/images/screenshots/red.png)
-![Yellow](/resources/images/screenshots/yellow.png)
+![Default](https://github.com/paulhitz/RedCarded/raw/master/resources/images/screenshots/default.png)
+![Red](RedCarded/resources/images/screenshots/red.png)
+![Yellow](/paulhitz/RedCarded/resources/images/screenshots/yellow.png)
+
